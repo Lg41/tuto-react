@@ -1,0 +1,157 @@
+.Image2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.position{
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.reponse{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.column_centered {
+
+  display: flex;
+}  
+
+@media (max-width : 767px) {
+
+  .column_centered {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
+
+.content{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+}
+
+@media (max-width : 767px) {
+
+  .content{
+  display: flex;
+  flex-direction: row ;
+  align-items: center;
+  justify-content: center;
+}
+}
+
+
+.responsive_row{
+   display: flex;
+}
+
+@media (max-width : 767px) {
+
+  .responsive_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
+
+.Columns{
+  border: 10px solid white ;
+  border-style: ridge;
+  border-radius: 6px;
+  padding: 8px;
+  height: 150px;
+  width: 180px;
+
+}
+
+
+.buttons{
+    width: 90px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 6px;
+    color: black;
+    background: rgb(83, 135, 5);
+    box-shadow: 2px 2px 0px #aaa;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+
+}
+
+.animationFade_In {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+}
+
+
+
+/* .button{
+  border-radius: 10;
+  height: 40;
+  font-size: 15;
+  border-color: 'gray';
+  background-color: 'transparent'; 
+  color: 'gray';
+  padding: 7px;
+
+} */
